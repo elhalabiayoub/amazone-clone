@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+.app {
+	width: 100vw;
+	background-color: rgba(223, 223, 223, 0.774);
+	position: relative;
+}

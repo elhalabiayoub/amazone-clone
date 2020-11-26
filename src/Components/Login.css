@@ -1,0 +1,91 @@
+.login {
+	background-color: white;
+}
+.login__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+
+	margin: auto;
+}
+.login__container > img {
+	object-fit: contain;
+	width: 150px;
+}
+
+.login__form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: stretch;
+	height: fit-content;
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+.login__field {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 10px 0;
+}
+.login__field > label {
+	font-weight: 500;
+	font-size: 15px;
+}
+.login__field > input {
+	height: 30px;
+	border: 1px solid grey;
+}
+.login__field > input:focus {
+	border: 1px solid rgba(223, 131, 11, 0.541);
+	outline: 1px solid rgb(221, 150, 57);
+}
+.login__button {
+	margin: 10px 0;
+	background-color: rgb(254, 189, 105);
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	border-radius: 10px;
+	color: black;
+	box-shadow: 0px 6px 0px 0px rgb(255, 145, 0);
+	transition: active 0.01s;
+	width: 100%;
+	font-weight: 700;
+}
+.login__button:hover {
+	background-color: rgb(247, 189, 113);
+}
+.login__button:focus {
+	outline: none;
+}
+.login__button:active {
+	box-shadow: 0px 5px 0px 0px rgb(254, 189, 105);
+	transform: translateY(5px);
+}
+
+.login__paragraphe {
+	color: grey;
+	margin: 10px 0;
+}
+.login__paragraphe > a {
+	color: rgb(6, 175, 187);
+	cursor: pointer;
+}
+.login__paragraphe > a:hover {
+	text-decoration: underline;
+	color: rgb(255, 145, 0);
+}
+.register {
+	background-color: lightgrey;
+	box-shadow: 0px 6px 0px 0px grey;
+}
+.register:hover {
+	background-color: rgb(175, 174, 174);
+}
+.register:active {
+	box-shadow: 0px 5px 0px 0px rgb(175, 174, 174);
+	transform: translateY(5px);
+}

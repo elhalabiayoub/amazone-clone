@@ -1,0 +1,11 @@
+.banner {
+	width: 100vw;
+}
+.banner__poster {
+	background-image: url("https://www.amazon.fr/images/G/08/digital/video/gateway/placement/launch/TheBoysS2/THBY_2020_GWBleedingHero_FT_COVIDUPDATE_XSite_1500x600_PV_fr-FR._CB406827366_.jpg");
+	background-size: cover;
+	max-width: 100vw;
+	background-repeat: no-repeat;
+	height: 70vh;
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}

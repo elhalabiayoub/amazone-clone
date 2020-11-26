@@ -1,0 +1,42 @@
+.products {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -150px;
+}
+.products__row {
+	display: flex;
+	padding: 0 30px;
+	width: 90%;
+	margin-bottom: 30px;
+}
+
+/*go to top button*/
+.products__bottomButton {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+	width: 95%;
+}
+.products__bottomButton > button {
+	background-color: rgb(55, 71, 90);
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0px 6px 0px 0px rgb(26, 35, 46);
+	transition: active 0.01s;
+}
+
+.products__bottomButton > button:hover {
+	background-color: rgb(59, 84, 121);
+}
+.products__bottomButton > button:focus {
+	outline: none;
+}
+.products__bottomButton > button:active {
+	box-shadow: 0px 5px 0px 0px rgb(59, 84, 121);
+	transform: translateY(4px);
+}

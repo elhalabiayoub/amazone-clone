@@ -1,0 +1,65 @@
+.product {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	min-width: 100px;
+	max-height: fit-content;
+	border-radius: 20px;
+	margin: 0 0 10px 0;
+	z-index: 1;
+	margin: 0 10px;
+	width: 100%;
+	box-shadow: -5px 2px 10px 1px rgba(255, 255, 255, 1),
+		inset 5px -2px 10px 1px rgba(0, 0, 0, 0.2),
+		inset -5px 2px 10px 1px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease-in-out;
+}
+.product:hover {
+	transform: scale(1.01);
+}
+.roduct__price {
+	font-weight: 900;
+}
+.product__image {
+	display: grid;
+	place-items: center;
+	flex: 1;
+}
+.product__image > img {
+	width: 50%;
+	height: 200px;
+	object-fit: contain;
+	max-width: fit-content;
+}
+
+.product__button {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.product__button > button {
+	background-color: rgb(254, 189, 105);
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0px 6px 0px 0px rgb(255, 145, 0);
+	transition: active 0.01s;
+}
+
+.product__button > button:hover {
+	background-color: rgb(247, 189, 113);
+}
+.product__button > button:focus {
+	outline: none;
+}
+.product__button > button:active {
+	box-shadow: 0px 5px 0px 0px rgb(254, 189, 105);
+	transform: translateY(5px);
+}
+.product__yellowStar {
+	color: rgb(255, 187, 0);
+}
